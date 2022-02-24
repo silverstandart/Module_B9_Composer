@@ -1,0 +1,19 @@
+{
+    "name": "andrey/andrey_composer_package",
+    "description": "Andreys Description",
+    "type": "library",
+    "require": {
+        "symfony/mailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andrey\\AndreyComposerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "silverstandart",
+            "email": "silverstandart@gmail.com"
+        }
+    ]
+}
